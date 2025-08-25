@@ -1,24 +1,17 @@
 {
     "settings": {
-        "global_sms_cost": 0.5,
-        "global_notice": "আমাদের সার্ভিসে আপনাকে স্বাগতম! যেকোনো প্রয়োজনে অ্যাডমিনের সাথে যোগাযোগ করুন।",
+        "cost_per_sms": 0.5,
+        "new_user_coins": 20,
         "recharge_tokens": [
-            "TOKEN_S555M_50:50",
-            "TOKEN_S555M_100:100",
-            "BONUS_S555M_250:250",
-            "MEGA_S555M_1000:1000"
+            "TOKEN_ULTIMATE_50:50",
+            "TOKEN_ULTIMATE_100:100",
+            "BONUS_ULTIMATE_250:250",
+            "MEGA_ULTIMATE_1000:1000"
         ]
     },
-    "users": {
+    "users_admin_config": {
         "SHIMUL_ADMIN": {
             "status": "lifetime"
-        },
-        "PREMIUM_USER_01": {
-            "status": "active",
-            "cost_per_sms": 0.3
-        },
-        "FREE_USER_101": {
-            "status": "active"
         },
         "BLOCKED_USER_69": {
             "status": "blocked"
