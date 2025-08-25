@@ -1,0 +1,39 @@
+{
+    "admin_config": {
+        "recharge_tokens": [
+            "token-s555m:50",
+            "token-s555m:100",
+            "token-s555m:500",
+            "premium-token-200"
+        ]
+    },
+    "users": {
+        "SHIMUL_ADMIN": {
+            "status": "lifetime",
+            "coins": 0,
+            "used_tokens": []
+        },
+        "PREMIUM_USER_01": {
+            "status": "active",
+            "coins": 500.5,
+            "used_tokens": []
+        },
+        "FREE_USER_101": {
+            "status": "active",
+            "coins": 25,
+            "used_tokens": [
+                "token-s555m:50"
+            ]
+        },
+        "TEST_ACCOUNT_77": {
+            "status": "active",
+            "coins": 0,
+            "used_tokens": []
+        },
+        "BLOCKED_USER_69": {
+            "status": "blocked",
+            "coins": 10,
+            "used_tokens": []
+        }
+    }
+}
