@@ -1,6 +1,7 @@
 {
     "settings": {
-        "cost_per_sms": 0.5,
+        "global_sms_cost": 0.5,
+        "global_notice": "আমাদের সার্ভিসে আপনাকে স্বাগতম! যেকোনো প্রয়োজনে অ্যাডমিনের সাথে যোগাযোগ করুন।",
         "recharge_tokens": [
             "TOKEN_S555M_50:50",
             "TOKEN_S555M_100:100",
@@ -13,7 +14,8 @@
             "status": "lifetime"
         },
         "PREMIUM_USER_01": {
-            "status": "active"
+            "status": "active",
+            "cost_per_sms": 0.3
         },
         "FREE_USER_101": {
             "status": "active"
@@ -21,7 +23,5 @@
         "BLOCKED_USER_69": {
             "status": "blocked"
         }
-    }
-}        }
     }
 }
