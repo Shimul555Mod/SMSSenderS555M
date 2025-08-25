@@ -1,39 +1,27 @@
 {
-    "admin_config": {
+    "settings": {
+        "cost_per_sms": 0.5,
         "recharge_tokens": [
-            "token-s555m:50",
-            "token-s555m:100",
-            "token-s555m:500",
-            "premium-token-200"
+            "TOKEN_S555M_50:50",
+            "TOKEN_S555M_100:100",
+            "BONUS_S555M_250:250",
+            "MEGA_S555M_1000:1000"
         ]
     },
     "users": {
         "SHIMUL_ADMIN": {
-            "status": "lifetime",
-            "coins": 999999,
-            "used_tokens": []
+            "status": "lifetime"
         },
         "PREMIUM_USER_01": {
-            "status": "active",
-            "coins": 500.5,
-            "used_tokens": []
+            "status": "active"
         },
         "FREE_USER_101": {
-            "status": "active",
-            "coins": 25,
-            "used_tokens": [
-                "token-s555m:50"
-            ]
-        },
-        "TEST_ACCOUNT_77": {
-            "status": "active",
-            "coins": 0,
-            "used_tokens": []
+            "status": "active"
         },
         "BLOCKED_USER_69": {
-            "status": "blocked",
-            "coins": 10,
-            "used_tokens": []
+            "status": "blocked"
         }
+    }
+}        }
     }
 }
