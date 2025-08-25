@@ -10,7 +10,7 @@
     "users": {
         "SHIMUL_ADMIN": {
             "status": "lifetime",
-            "coins": 0,
+            "coins": 999999,
             "used_tokens": []
         },
         "PREMIUM_USER_01": {
